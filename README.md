@@ -8,7 +8,7 @@ Built for the [Alfred Application Challenge](alfred_application_challenge.pdf).
 
 ## Live Demo
 
-- **Live URL:** `https://your-deployment-url.example.com` *(placeholder — update after deployment)*
+- **Live URL:** https://alfred-ecru.vercel.app
 - **GitHub:** `https://github.com/your-username/contextual-action-decision-engine` *(placeholder — update after publishing)*
 
 ---

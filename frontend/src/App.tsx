@@ -36,7 +36,7 @@ function App() {
         openai_model: model || null,
       };
       const response = await axios.post<DecideResponse>(
-        'http://localhost:8000/decide',
+        '/api/decide',
         payload,
       );
       setResult(response.data);
