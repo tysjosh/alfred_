@@ -2,14 +2,12 @@
 
 A hybrid decision system that evaluates user-initiated actions against conversation history, intent signals, and risk factors. It combines deterministic rule-based logic with LLM reasoning to produce one of five decision outcomes — each accompanied by a confidence score, a full reasoning chain, and a "why not others" explanation.
 
-Built for the [Alfred Application Challenge](alfred_application_challenge.pdf).
 
 ---
 
 ## Live Demo
 
 - **Live URL:** https://alfred-ecru.vercel.app
-- **GitHub:** `https://github.com/your-username/contextual-action-decision-engine` *(placeholder — update after publishing)*
 
 ---
 
