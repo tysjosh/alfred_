@@ -219,14 +219,13 @@ python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
-# Set your OpenAI API key
-export OPENAI_API_KEY="sk-..."
-
 # Start the server
 uvicorn main:app --app-dir . --reload --port 8000
 ```
 
 The API will be available at `http://localhost:8000`. The main endpoint is `POST /decide`.
+
+> **Note:** You can provide your OpenAI API key directly in the frontend UI (LLM Settings panel). Alternatively, you can set it as an environment variable (`export OPENAI_API_KEY="sk-..."`) as a fallback — the frontend-provided key takes priority.
 
 ### Frontend
 
